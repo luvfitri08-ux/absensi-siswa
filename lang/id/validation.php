@@ -1,0 +1,48 @@
+<?php
+
+return [
+    'after' => ':attribute harus setelah :date.',
+    'array' => ':attribute harus berupa daftar.',
+    'before_or_equal' => ':attribute tidak boleh melebihi tanggal hari ini.',
+    'date' => ':attribute bukan tanggal yang valid.',
+    'date_format' => ':attribute tidak sesuai format :format.',
+    'exists' => ':attribute yang dipilih tidak valid.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'integer' => ':attribute harus berupa angka bulat.',
+    'max' => [
+        'array' => ':attribute tidak boleh lebih dari :max item.',
+        'numeric' => ':attribute tidak boleh lebih dari :max.',
+        'string' => ':attribute tidak boleh lebih dari :max karakter.',
+    ],
+    'min' => [
+        'array' => ':attribute minimal :min item.',
+        'numeric' => ':attribute minimal :min.',
+        'string' => ':attribute minimal :min karakter.',
+    ],
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'unique' => ':attribute sudah dipakai.',
+
+    'attributes' => [
+        'username' => 'Username',
+        'password' => 'Password',
+        'kode_mapel' => 'Kode mapel',
+        'nama_mapel' => 'Nama mata pelajaran',
+        'nip' => 'NIP',
+        'nisn' => 'NISN',
+        'nama' => 'Nama',
+        'jenis_kelamin' => 'Jenis kelamin',
+        'tempat_lahir' => 'Tempat/tanggal lahir',
+        'tanggal_lahir' => 'Tanggal lahir',
+        'alamat' => 'Alamat',
+        'bapak' => 'Nama ayah',
+        'ibu' => 'Nama ibu',
+        'kode_kelas' => 'Kelas',
+        'hari' => 'Hari',
+        'waktu_awal' => 'Jam mulai',
+        'waktu_akhir' => 'Jam selesai',
+        'id_jadwal' => 'Jadwal',
+        'tanggal' => 'Tanggal',
+        'status' => 'Status',
+    ],
+];
